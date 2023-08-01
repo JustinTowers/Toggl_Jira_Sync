@@ -75,7 +75,7 @@ def filter_toggl_entries(entries):
                 'description': description,
                 'ticket_number': ticket_number,
                 'date': date,
-                'duration': math.ceil(item['duration'] / 900) * 15 * 60,  # Duration rounded up to the nearest 15 minutes in seconds
+                'duration': item['duration'], #math.ceil(item['duration'] / 900) * 15 * 60,  # Duration rounded up to the nearest 15 minutes in seconds
                 'toggle_id': item['id'],
                 'tags': item['tags']
             }

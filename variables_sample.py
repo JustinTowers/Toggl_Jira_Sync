@@ -3,7 +3,7 @@ TOGGL_API_TOKEN = "" #(Left sidebar) Profile -> Profile Settings -> API Token
 TOGGL_WORKSPACE_ID = "" # Browse to 'Reports', in url -> https://track.toggl.com/reports/summary/{workspaceID}
 TOGGL_EMAIL = "your toggl login email"
 TOGGL_PASSWORD = "YOUR LOGIN PASSWORD"
-DAYS_TO_GO_BACK = 5
+DAYS_TO_GO_BACK = 31
 TOGGL_PROJECT_ID = 1234  #Toggl -> (sidebar) Projects -> url = track.toggl.com/[workspace_id]/projects/[project_id]/tasks
 
 # Jira API credentials
